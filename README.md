@@ -5,16 +5,15 @@ spreadsheets) and can be used to display comparisons of both yes/no
 and numerical data between groups.
 
 Examples of yes/no questions: 
-1. Do you pull all-nighters weekly?
-2. I am satisfied with my academic performance.
+  * Do you pull all-nighters weekly?
+  * I am satisfied with my academic performance.
 
 Examples of questions with numerical data: 
-1. Rank your happiness on a scale from 1-7. 
-2. How many hours do you spend on homework?
+  * Rank your happiness on a scale from 1-7. 
+  * How many hours do you spend on homework?
 
-An older version of this project (that wasn't running on Tabletop and
-doesn't have supergroups) can be found at
-[http://tech.mit.edu/V132/N59/pressure/breakdown/residence/index.htm](http://tech.mit.edu/V132/N59/pressure/breakdown/residence/index.htm)
+A working copy of this project can be found at
+[http://the-tech.mit.edu/~jskao/breakdown/](http://the-tech.mit.edu/~jskao/breakdown/)
 
 Usage:
 -------------
