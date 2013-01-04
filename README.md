@@ -12,9 +12,8 @@ Examples of questions with numerical data:
   * Rank your happiness on a scale from 1-7. 
   * How many hours do you spend on homework?
 
-An older version of this project (that wasn't running on Tabletop and
-doesn't have supergroups) can be found at
-[http://tech.mit.edu/V132/N59/pressure/breakdown/residence/index.htm](http://tech.mit.edu/V132/N59/pressure/breakdown/residence/index.htm)
+A working copy of this project can be found at
+[http://the-tech.mit.edu/~jskao/breakdown/](http://the-tech.mit.edu/~jskao/breakdown/)
 
 Usage:
 -------------
