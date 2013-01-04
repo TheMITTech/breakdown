@@ -1,0 +1,171 @@
+*{
+	font-family:'Univers', sans-serif;
+}
+
+body{
+	margin:0;
+}
+
+.left-menu{
+	position:absolute;
+	width:210px;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.left-menu#moveable{
+	position:fixed;
+	width:180px;
+	margin-right:10px;
+	padding:10px;
+	padding-top:0px;
+	background:#ECEAE1;
+}
+
+h1{
+	margin-top:10;
+}
+
+.main{
+	padding: 10px;
+	position:relative;
+	overflow:hidden;
+	margin-left:210px;
+}
+
+.groups{
+	height:200px;
+	margin-bottom:10px;
+	clear:both;
+}
+
+.groupcont{
+	position:relative;
+	float:left;
+	margin-right:13px;
+	margin-bottom:50px;
+	height:135px;
+	width:100px;
+}
+
+.fixedcont{
+	position:relative;
+	height:110px;
+	width:100px;
+}
+
+.group{
+	position:absolute;
+	bottom:0;
+	height:100px;
+	background:#A32500;
+	width:100px;
+	z-index:-1;
+}
+
+.label{
+	position:relative;
+	padding-top:3px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.temp{
+	text-align:center;
+	color:#333;
+	z-index:1;
+}
+
+button{
+	display:block;
+	color:black;
+	padding:5px;
+	padding-left:12px;
+	background:rgba(236, 234, 225, 0.8);
+	font-size:12px;
+	width:198px;
+	margin-left:-5px;
+	border: none;
+	text-align:left;
+}
+
+button:hover{
+	color:white;
+	background:#333;
+	cursor:pointer;
+}
+
+button.selected{
+	color:white;
+	background:#333;
+}
+
+.heading{
+	display:block;
+	color:black;
+	padding:8px;
+	padding-left:0;
+	background: rgba(0, 0, 0, .1);
+	font-size:12px;
+	width:184px;
+	margin-left:-5px;
+	border: none;
+	text-align:left;
+	border-left:3px solid black;
+	height:22px;
+	min-height:22px;
+	overflow:hidden;
+	cursor:pointer;
+	padding-bottom:0px;
+	margin-bottom:10px;
+	
+	/*transition-property : height; 
+	transition-duration : 0.5s; */
+	
+	-moz-transition-property : height; /* FireFox */
+	-webkit-transition-property : height; /* Safari / Chrome */
+	-webkit-transition-duration : 0.5s ease; 
+	-o-transition-property : height; /* Opera */
+	transition-property : height; /* W3C */
+}
+
+.headlabel{
+	height:22px;
+	padding-left:8px;
+}
+
+h3{
+	margin-top:0;
+	margin-bottom:2px;
+}
+
+hr{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.dispquest{
+	font-weight:bold;
+	font-size:24px;
+	margin-bottom:10px;
+}
+
+.addnotes{
+	border-bottom:1px solid #BBB;
+	font-style:italic;
+	color:#666;
+	font-weight:light;
+	height:60px;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
+lighter{
+	color:#666;
+	font-weight:bold;
+	font-size:24px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
