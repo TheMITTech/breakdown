@@ -1,6 +1,6 @@
 Breakdown on Tabletop
 ============
-This graphic runs on Tabletop.js (aka data is stored in Google Doc
+This graphic runs on Tabletop.js (i.e. data is stored in Google Doc
 spreadsheets) and can be used to display comparisons of both discrete
 and continuous data between groups.
 
@@ -17,9 +17,9 @@ Usage:
 ### 2) Enter your data ([Example](https://docs.google.com/spreadsheet/ccc?key=0AlhEOMxfxhHtdF9Sank4TU5QTm0zekROYkkxZ09veHc)):
 1. Open a Google Doc Spreadsheet
 2. You will need two sheets inside your spreadsheet. Name one sheet
-"demographics" and the other sheet "data."
+"demographics" and the other sheet "data".
 
-3. In the "demographics" sheet, create columns "name," "id," "pop," and "supergroup."
+3. In the "demographics" sheet, create columns "name", "id", "pop", and "supergroup".
     * name => name of the group
     * id => a short name for the group (cannot have spaces)
     * pop => the size of each group
@@ -27,8 +27,8 @@ Usage:
       larger supergroup. If you only have one group, just fill out the
       same name for every row.
 
-4. In the "data" sheet, create columns "category", "id," "question,"
-"notes," "average,", "maxval," "units," and a column for each row in
+4. In the "data" sheet, create columns "category", "id", "question",
+"notes", "average", "maxval", "units", and a column for each row in
 your demographics sheet (name those columns using the id column in
 your demographics sheet).
     * category => You can categorize your questions for easier navigation
@@ -51,7 +51,7 @@ your demographics sheet).
 
 ### 3) Edit the files you just pulled from Github
 1. Open script.js. 
-2. Fill out the "GOOGLE_DOC_KEY," "TITLE," and "HEADLINE."
+2. Fill out the "GOOGLE_DOC_KEY", "TITLE", and "HEADLINE".
     * GOOGLE_DOC_KEY => In your Google Doc spreadsheet, click on File
       -> Publish to the Web and then copy and paste the key in link
       (located inside the box at the bottom of the popup). The key is
