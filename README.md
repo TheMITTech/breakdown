@@ -11,7 +11,7 @@ doesn't have supergroups) can be found at
 Usage:
 -------------
 ### 1) Clone files from Github
-1. git clone git@github.com:TheMITTech/breakdown.git (clone the git repository)
+1. git clone git\@github.com:TheMITTech/breakdown.git (clone the git repository)
 2. cd breakdown (navigate into the breakdown folder)
 
 ### 2) Enter your data ([Example](https://docs.google.com/spreadsheet/ccc?key=0AlhEOMxfxhHtdF9Sank4TU5QTm0zekROYkkxZ09veHc)):
