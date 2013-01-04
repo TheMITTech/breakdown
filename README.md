@@ -1,8 +1,16 @@
 Breakdown on Tabletop
 ============
 This graphic runs on Tabletop.js (i.e. data is stored in Google Doc
-spreadsheets) and can be used to display comparisons of both discrete
-and continuous data between groups.
+spreadsheets) and can be used to display comparisons of both yes/no
+and numerical data between groups.
+
+Examples of yes/no questions: 
+1. Do you pull all-nighters weekly?
+2. I am satisfied with my academic performance.
+
+Examples of questions with numerical data: 
+1. Rank your happiness on a scale from 1-7. 
+2. How many hours do you spend on homework?
 
 An older version of this project (that wasn't running on Tabletop and
 doesn't have supergroups) can be found at
@@ -48,8 +56,9 @@ your demographics sheet).
       answer with a value, you should indicate the average value response
       for the group.
 
-5. Fill out the rows in your spreadsheet with your data. The order of your rows will determine 
-the order of the data bars on the page and the questions in the left sidebar.
+5. Fill out the rows in your spreadsheet with your data. The order of your rows 
+will determine the order of the data bars on the page and the questions in the 
+left sidebar.
 
 ### 3) Edit the files you just pulled from Github
 1. Open script.js. 
