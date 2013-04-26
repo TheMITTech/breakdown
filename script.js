@@ -35,7 +35,7 @@ function showInfo(data, tabletop) {
 			groupdivs += '<h3>'+data['demographics']['elements'][i]['supergroup']+'</h3>';
 		}
 		groupdivs += '<div class="groupcont"><div class="fixedcont"><div class="group" id=';
-		groupdivs += '"'+ data['demographics']['elements'][i]['id'] +'"></div></div><div class="label">'+data['demographics']['elements'][i]['name']+'</div></div>';
+		groupdivs += '"'+ data['demographics']['elements'][i]['id'] +'"></div></div><div class="label">'+data['demographics']['elements'][i]['name']+'</div><div class="samplesize">n = '+data['demographics']['elements'][i]['pop']+'</div></div>';
 	}
 	$('.groupscontainer').html(groupdivs);
 

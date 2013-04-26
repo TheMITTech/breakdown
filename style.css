@@ -71,6 +71,15 @@ h1{
 	text-align:center;
 }
 
+.samplesize{
+	text-align:center;
+	font-weight:lighter;
+	margin-top:5px;
+	font-style:italic;
+	font-size:0.7em;
+	color:#999;
+}
+
 .temp{
 	text-align:center;
 	color:#333;
