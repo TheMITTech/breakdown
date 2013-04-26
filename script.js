@@ -4,9 +4,9 @@
 
 $(document).ready(function() {
 
-GOOGLE_DOC_KEY = '0AlhEOMxfxhHtdF9Sank4TU5QTm0zekROYkkxZ09veHc';
-TITLE = "The Tech Pressure | Breakdown by Residence";
-HEADLINE = "Pressure Breakdown by Residence";
+GOOGLE_DOC_KEY = '0Av5e1nTas_mOdFptZW9pVFNtWDk1TFpCNVMyZTdYSHc';
+TITLE = "The Tech Dining | Breakdown by Residence";
+HEADLINE = "Dining Breakdown by Residence";
 
 init();
 
@@ -113,7 +113,12 @@ function showInfo(data, tabletop) {
 		
 			var id = $(this).attr("id");
 
-			$('.mitatlarge').text(selectedobject['average']+' '+selectedobject['units']);
+			if (selectedobject['units'] === '%') {
+				$('.mitatlarge').text(selectedobject['average']+selectedobject['units']);
+			}
+			else {
+				$('.mitatlarge').text(selectedobject['average']+' '+selectedobject['units']);
+			}
 
 			var num = parseFloat(selectedobject[id]); // num is the raw number from the group
 
